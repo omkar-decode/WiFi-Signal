@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/activity_main_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical"
+        android:textSize="45sp"
+        android:text="RSS Indicator"/>
+
+
+    <TextView
+        android:id="@+id/ssid_wifi_signal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:hint="SSID"/>
+
+    <TextView
+        android:id="@+id/timestamp_wifi_signal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:hint="Timestamp"/>
+
+    <TextView
+        android:id="@+id/level_wifi_signal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:hint="Level"/>
+
+    <TextView
+        android:id="@+id/peak_wifi_signal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:hint="Peak Value"/>
+
+    <EditText
+        android:id="@+id/SSID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="60dp"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:hint="Enter wifi name"/>
+
+    <Button
+        android:id="@+id/scan_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="50dp"
+        android:textSize="28sp"
+        android:text="SCAN" />
+
+    <Button
+        android:id="@+id/plot_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="50dp"
+        android:textSize="28sp"
+        android:text="PLOT" />
+
+    <!--<Spinner-->
+        <!--android:id="@+id/wifi_names_spinner"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_marginHorizontal="40dp"-->
+        <!--/>-->
+
+</LinearLayout>
